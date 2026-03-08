@@ -1,0 +1,140 @@
+.about {
+  padding: 120px 0;
+  overflow-x: hidden;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+/*
+CONTENT
+*/
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-content .snap {
+  margin-bottom: 4px;
+}
+
+.about-content p {
+  max-width: 520px;
+}
+
+/*
+STATS
+*/
+
+.about-stats {
+  display: flex;
+  gap: 60px;
+  margin-top: 24px;
+}
+
+.about-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.about-stat span:first-child {
+  font-weight: 500;
+}
+
+/*
+IMAGE
+*/
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  display: block;
+  border-radius: 24px;
+}
+
+/*
+CARD OVER IMAGE
+*/
+
+.about-card {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+
+  padding: 20px 24px;
+
+  border-radius: 16px;
+
+  background: rgba(20,20,20,0.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.about-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-card li {
+  font-size: 0.95rem;
+  color: white;
+  opacity: 0.95;
+}
+
+/*
+RESPONSIVE
+*/
+
+@media (max-width: 900px) {
+
+  .about {
+    padding: 2rem 0;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-content p {
+    max-width: 100%;
+  }
+
+  .about-stats {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .about-image {
+    order: -1;
+  }
+
+  .about-card {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    transform: none;
+    padding: 16px 18px;
+    width: auto;
+  }
+
+}

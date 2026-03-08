@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lente dental</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#" class="header-logo">
+        Dr. Anderson
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="header-nav">
+        <a href="#problema">Problema</a>
+        <a href="#solucao">Solução</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+
+      <!-- CTA -->
+      <a href="#" class="header-cta primary-button body-3">
+        Agendar avaliação
+      </a>
+
+      <!-- Hamburger -->
+      <button class="header-hamburger js-hamburger" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu js-mobile-menu container">
+    <div class="mobile-menu-backdrop js-mobile-close"></div>
+    <nav class="mobile-menu-panel">
+      <button class="mobile-menu-close js-mobile-close" aria-label="Fechar menu">
+        ✕
+      </button>
+      <div class="mobile-menu-content">
+        <a href="#problema" class="mobile-link js-mobile-close">
+          Problema
+        </a>
+        <a href="#solucao" class="mobile-link js-mobile-close">
+          Solução
+        </a>
+        <a href="#sobre" class="mobile-link js-mobile-close">
+          Sobre
+        </a>
+        <a href="#depoimentos" class="mobile-link js-mobile-close">
+          Depoimentos
+        </a>
+        <a href="#" class="mobile-cta primary-button">
+          Agendar avaliação
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <section class="hero-container container">
+    <div class="hero-content show-top" data-anime="scroll" data-tab="content">
+      <span class="snap gradient-text">
+        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.33496 10.3368C2.02171 10.0471 2.19187 9.52339 2.61557 9.47316L8.61914 8.76107C8.79182 8.74059 8.94181 8.63215 9.01465 8.47425L11.5469 2.98446C11.7256 2.59703 12.2764 2.59695 12.4551 2.98439L14.9873 8.47413C15.0601 8.63204 15.2092 8.74077 15.3818 8.76124L21.3857 9.47316C21.8094 9.52339 21.9791 10.0472 21.6659 10.3369L17.2278 14.4419C17.1001 14.56 17.0433 14.7357 17.0771 14.9063L18.255 20.8359C18.3382 21.2544 17.8928 21.5787 17.5205 21.3703L12.2451 18.4166C12.0934 18.3317 11.9091 18.3321 11.7573 18.417L6.48144 21.3695C6.10913 21.5779 5.66294 21.2544 5.74609 20.8359L6.92414 14.9066C6.95803 14.7361 6.90134 14.5599 6.77367 14.4419L2.33496 10.3368Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
+        Oferta por tempo limitado
+      </span>
+      <h1 class="headline-2"><span class="gradient-text">Transforme seu sorriso</span> com lente dental</h1>
+      <p class="body-1">Corrija dentes escurecidos, desalinhados ou com imperfeições e conquiste um sorriso mais branco, harmônico e natural.</p>
+      <button class="primary-button body-3">Agendar avaliação</button>
+    </div>
+    <!-- Scroll indicator -->
+    <div class="hero-scroll-indicator">
+      <svg class="hero-scroll-arrow" width="28" height="28" viewBox="0 0 24 24" fill="none">
+        <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- Reveal image -->
+  <div class="show-top compare container" data-anime="scroll" data-tab="content">
+    <h1 class="headline-3">Resultados que<br><span class="gradient-text">devolvem sua autoestima</span></h1>
+    <div class="compare-container js-compare">
+      <span class="compare-label compare-before">ANTES</span>
+      <span class="compare-label compare-after">DEPOIS</span>
+      <img src="./globals/images/depois.png" class="compare-img">
+      <div class="compare-overlay">
+        <img src="./globals/images/antes.png" class="compare-img">
+      </div>
+      <div class="compare-slider">
+        <div class="compare-handle">↔</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Problem -->
+  <section id="problema container" class="problem">
+    <div class="container problem-grid">
+      <div class="problem-content show-right" data-anime="scroll" data-tab="content">
+        <span class="snap gradient-text">
+          <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.33496 10.3368C2.02171 10.0471 2.19187 9.52339 2.61557 9.47316L8.61914 8.76107C8.79182 8.74059 8.94181 8.63215 9.01465 8.47425L11.5469 2.98446C11.7256 2.59703 12.2764 2.59695 12.4551 2.98439L14.9873 8.47413C15.0601 8.63204 15.2092 8.74077 15.3818 8.76124L21.3857 9.47316C21.8094 9.52339 21.9791 10.0472 21.6659 10.3369L17.2278 14.4419C17.1001 14.56 17.0433 14.7357 17.0771 14.9063L18.255 20.8359C18.3382 21.2544 17.8928 21.5787 17.5205 21.3703L12.2451 18.4166C12.0934 18.3317 11.9091 18.3321 11.7573 18.417L6.48144 21.3695C6.10913 21.5779 5.66294 21.2544 5.74609 20.8359L6.92414 14.9066C6.95803 14.7361 6.90134 14.5599 6.77367 14.4419L2.33496 10.3368Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+          Te entendemos
+        </span>
+        <h2 class="headline-2">
+          Você <span class="gradient-text">não</span> precisa
+          conviver com isso...
+        </h2>
+        <ul class="problem-list">
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Vergonha de sorrir em fotos</li>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Dentes escurecidos</li>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Espaçamento entre os dentes</li>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Sorriso desalinhado</li>
+        </ul>
+        <div class="problem-cta">
+          <button class="primary-button">
+            Quero avaliar meu sorriso
+          </button>
+          <span class="problem-proof">
+            Mais de 500 sorrisos transformados
+          </span>
+        </div>
+      </div>
+      <div class="problem-image show-top" data-anime="scroll" data-tab="content">
+        <img src=" ./globals/images/vergonha-sorriso.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution -->
+  <section id="solucao" class="solution">
+    <div class="solution-grid container">
+      <div class="solution-image show-top" data-anime="scroll" data-tab="content">
+        <img src="./globals/images/sorriso-resultado.png" alt="">
+      </div>
+      <div class="solution-content show-top" data-anime="scroll" data-tab="content">
+        <div class="solution-header">
+          <span class="snap gradient-text">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 21C12 21 4 16 4 10C4 6.68629 6.68629 4 10 4C11.6569 4 13.1569 4.89543 14 6.24264C14.8431 4.89543 16.3431 4 18 4C21.3137 4 24 6.68629 24 10C24 16 16 21 16 21H12Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Solução estética
+          </span>
+          <h2 class="headline-4">
+            <span class="gradient-text">Transforme seu sorriso</span>
+            com lentes de porcelana
+          </h2>
+        </div>
+        <button href="" class="solution-card">
+          <div class="solution-card-content">
+            <h3 class="headline-4">
+              Quero transformar <br>
+              meu sorriso
+            </h3>
+            <ul class="solution-benefits">
+              <li class="body-3"><svg width=" 24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#6666E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Sorriso mais branco
+              </li>
+              <li class="body-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#6666E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Aparência natural</li>
+              <li class="body-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 12L10.2426 16.2426L18.727 7.75732" stroke="#6666E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Resultado duradouro</li>
+            </ul>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Doctor -->
+  <section id="sobre" class="about container">
+    <div class="container about-grid">
+      <div class="about-content show-top" data-anime="scroll" data-tab="content">
+        <span class="snap gradient-text">
+          <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 21C12 21 4 16 4 10C4 6.68629 6.68629 4 10 4C11.6569 4 13.1569 4.89543 14 6.24264C14.8431 4.89543 16.3431 4 18 4C21.3137 4 24 6.68629 24 10C24 16 16 21 16 21H12Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Sobre
+        </span>
+
+        <h2 class="headline-2">
+          Conheça quem <span class="gradient-text">transformará sua autoestima</span>
+        </h2>
+
+        <p class="body-2">
+          Com mais de uma década de experiência na odontologia estética,
+          Dr. Anderson é especialista em criar sorrisos naturais, harmônicos
+          e personalizados através das lentes de porcelana.
+        </p>
+
+        <p class="body-2">
+          Seu objetivo vai além de dentes bonitos.
+          <strong>É devolver autoestima, confiança e liberdade para sorrir.</strong>
+        </p>
+
+        <div class="about-stats">
+          <div class="about-stat">
+            <span class="headline-3 gradient-text">13+</span>
+            <span class="body-3">Anos de experiência</span>
+          </div>
+
+          <div class="about-stat">
+            <span class="headline-3 gradient-text">900+</span>
+            <span class="body-3">Pacientes satisfeitos</span>
+          </div>
+
+          <div class="about-stat">
+            <span class="headline-3 gradient-text">2026</span>
+            <span class="body-3">Destaque do ano</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image show-top" data-anime="scroll" data-tab="content">
+        <img src="./globals/images/dr-anderson.png" alt="Dr. Anderson especialista em lentes de porcelana">
+
+        <div class="about-card">
+          <ul>
+            <li>✓ Avaliação personalizada</li>
+            <li>✓ Tecnologia avançada</li>
+            <li>✓ Atendimento confortável e seguro</li>
+            <li>✓ Resultados naturais e duradouros</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="testimonials">
+
+    <div class="container">
+
+      <!-- Header -->
+      <header class="testimonials-header show-top" data-anime="scroll" data-tab="content">
+
+        <h2 class="headline-3">
+          Quem transforma o sorriso,<br>
+          <span class="gradient-text">transforma histórias</span>
+        </h2>
+
+        <div class="testimonials-rating">
+          <span class="rating-text body-3">
+            120 avaliações<br>5 estrelas!
+          </span>
+
+          <div class="rating-stars">
+            <svg class="star">
+              <use href="#icon-star"></use>
+            </svg>
+            <svg class="star">
+              <use href="#icon-star"></use>
+            </svg>
+            <svg class="star">
+              <use href="#icon-star"></use>
+            </svg>
+            <svg class="star">
+              <use href="#icon-star"></use>
+            </svg>
+            <svg class="star">
+              <use href="#icon-star"></use>
+            </svg>
+          </div>
+        </div>
+      </header>
+
+      <!-- Slider -->
+      <div class="testimonials-slider show-top" data-anime="scroll" data-tab="content">
+        <div class="testimonials-track">
+          <!-- Card -->
+          <article class="testimonial-card">
+            <header class="testimonial-user">
+              <img src="./globals/images/testimonial-1.jpg" alt="Paciente Mariana Silva" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <strong class="testimonial-name">
+                  Mariana Silva
+                </strong>
+                <div class="testimonial-stars">
+                  ★ ★ ★ ★ ★
+                </div>
+              </div>
+            </header>
+            <p class="testimonial-text body-3">
+              Eu tinha vergonha do meu sorriso por causa das manchas.
+              O Dr. Anderson foi extremamente atencioso na primeira consulta
+              e explicou todo o processo das lentes de porcelana.
+              O resultado ficou incrível. Hoje eu sorrio muito mais.
+            </p>
+          </article>
+
+
+          <!-- Card -->
+          <article class="testimonial-card">
+            <header class="testimonial-user">
+              <img src="./globals/images/testimonial-2.jpg" alt="Paciente Wellington Santos" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <strong class="testimonial-name">
+                  Wellington Santos
+                </strong>
+                <div class="testimonial-stars">
+                  ★ ★ ★ ★ ★
+                </div>
+              </div>
+            </header>
+            <p class="testimonial-text body-3">
+              O Dr. Anderson mudou completamente minha autoestima.
+              Antes eu evitava sorrir em fotos e me sentia inseguro.
+              Depois do tratamento, tudo mudou.
+              Hoje eu sorrio com confiança.
+            </p>
+          </article>
+
+
+          <!-- Card -->
+          <article class="testimonial-card">
+            <header class="testimonial-user">
+              <img src="./globals/images/testimonial-3.jpg" alt="Paciente Carlos Henrique" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <strong class="testimonial-name">
+                  Carlos Henrique
+                </strong>
+                <div class="testimonial-stars">
+                  ★ ★ ★ ★ ★
+                </div>
+              </div>
+            </header>
+            <p class="testimonial-text body-3">
+              Sempre tive insegurança com meus dentes.
+              Depois do tratamento com lentes de porcelana,
+              meu sorriso ficou natural e alinhado.
+              Foi uma das melhores decisões que já tomei.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact / WhatsApp -->
+  <section class="contact">
+    <div class="container contact-grid">
+
+      <!-- Image -->
+      <div class="contact-image show-right" data-anime="scroll" data-tab="content">
+        <img src="./globals/images/dr-anderson-contato.png" alt="Dr Anderson atendendo paciente">
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form-card show-top" data-anime="scroll" data-tab="content">
+
+        <h2 class="headline-3">
+          <span class="gradient-text">Agende</span> sua consulta
+        </h2>
+
+        <form id="whatsapp-form" class="contact-form">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nome</label>
+              <input type="text" name="nome" placeholder="Seu nome" required>
+            </div>
+
+            <div class="form-group">
+              <label>Telefone</label>
+              <input type="tel" name="telefone" placeholder="(21) 99999-9999" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="contato@email.com">
+          </div>
+
+          <div class="form-group">
+            <label>Mensagem</label>
+            <textarea name="mensagem" rows="4" placeholder="Nos conte, o que você precisa?"></textarea>
+          </div>
+
+          <button type="submit" class="primary-button">
+            Agendar consulta
+          </button>
+
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer show-top" data-anime="scroll" data-tab="content">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <strong class="footer-logo">Dr. Anderson</strong>
+        <p class="footer-text">
+          Especialista em lentes de porcelana e estética dental.
+          Transformando sorrisos e devolvendo autoestima.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="footer-nav">
+        <strong class="footer-title">Navegação</strong>
+        <a href="#problema">Problema</a>
+        <a href="#solucao">Solução</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </nav>
+
+      <!-- Contact -->
+      <div class="footer-contact">
+        <strong class="footer-title">Contato</strong>
+        <a href="https://wa.me/5512982038956" target="_blank">(12) 98203‑8956</a>
+        <span>contato@dranderson.com</span>
+        <span>Caraguatatuba • SP</span>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <span>© 2026 Dr. Anderson. Todos os direitos reservados.</span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const form = document.getElementById('whatsapp-form');
+
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const nome = form.nome.value || '';
+        const telefone = form.telefone.value || '';
+        const email = form.email.value || '';
+        const mensagem = form.mensagem.value || '';
+
+        const texto =
+          `Oi, me chamo ${nome}, meu telefone de contato é ${telefone} e email ${email}. ${mensagem}`;
+
+        const url = "https://wa.me/5512982038956?text=" + encodeURIComponent(texto);
+
+        window.open(url, "_blank");
+      });
+    }
+  </script>
+  <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

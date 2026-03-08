@@ -1,0 +1,37 @@
+.show-down {
+  opacity: 0;
+  transform: translate3d(0, -30px, 0);
+}
+
+.show-right {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+}
+
+.show-left {
+  opacity: 0;
+  transform: translate3d(30px, 0, 0);
+}
+
+.show-top {
+  opacity: 0;
+  transform: translate3d(0, 30px, 0);
+}
+
+/* base transition so animation works both directions */
+
+.show-down,
+.show-right,
+.show-left,
+.show-top {
+  will-change: transform, opacity;
+  transition: transform .6s cubic-bezier(.22,.61,.36,1),
+              opacity .6s cubic-bezier(.22,.61,.36,1);
+}
+
+/* active state */
+
+[data-tab="content"].active {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}

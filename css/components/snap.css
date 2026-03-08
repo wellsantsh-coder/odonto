@@ -1,0 +1,26 @@
+.snap {
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 0.625rem;
+  gap: 0.650rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-10);
+  color: var(--gradient);
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.snap img {
+  color: var(--color-primary-1);
+  max-width: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .snap {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

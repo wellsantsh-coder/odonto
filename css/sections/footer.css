@@ -1,0 +1,138 @@
+
+
+/* =========================
+FOOTER
+========================= */
+
+.site-footer {
+  margin-top: 120px;
+  background: var(--color-11);
+  border-top: 1px solid rgba(0,0,0,0.06);
+  padding: 4rem;
+  border-radius: 1rem 1rem 0 0
+}
+
+/* =========================
+GRID
+========================= */
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 60px;
+  padding: 80px 0;
+}
+
+/* =========================
+BRAND
+========================= */
+
+.footer-logo {
+  font-size: 1.1rem;
+  color: var(--color-1);
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  color: var(--color-6);
+  line-height: 1.6;
+  max-width: 320px;
+}
+
+/* =========================
+TITLES
+========================= */
+
+.footer-title {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: var(--color-1);
+}
+
+/* =========================
+NAV
+========================= */
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: var(--color-6);
+  font-size: 0.95rem;
+  transition: opacity .2s ease;
+}
+
+.footer-nav a:hover {
+  opacity: .7;
+}
+
+/* =========================
+CONTACT
+========================= */
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact a,
+.footer-contact span {
+  font-size: 0.95rem;
+  color: var(--color-6);
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  opacity: .7;
+}
+
+/* =========================
+BOTTOM
+========================= */
+
+.footer-bottom {
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+.footer-bottom-inner {
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom-inner span {
+  font-size: 0.9rem;
+  color: var(--color-7);
+}
+
+/* =========================
+RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .site-footer {
+    padding: 2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 60px 0;
+  }
+
+  .footer-text {
+    max-width: 100%;
+  }
+
+  .footer-bottom-inner {
+    text-align: center;
+  }
+
+}

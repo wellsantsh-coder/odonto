@@ -1,0 +1,28 @@
+@import "./global.css";
+@import "./utils/colors.css";
+@import "./utils/typography.css";
+
+/*
+-------------- Animations
+*/
+@import "./animations/active-scroll.css";
+
+/*
+-------------- Sections
+*/
+@import "./sections/header.css";
+@import "./sections/hero.css";
+@import "./sections/compare.css";
+@import "./sections/problem.css";
+@import "./sections/solution.css";
+@import "./sections/about.css";
+@import "./sections/testimonials.css";
+@import "./sections/contact.css";
+@import "./sections/footer.css";
+
+/*
+-------------- Components
+*/
+@import "./components/primary-button.css";
+@import "./components/snap.css";
+@import "./components/gradient-text.css";
