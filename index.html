@@ -104,9 +104,9 @@
     <div class="compare-container js-compare">
       <span class="compare-label compare-before">ANTES</span>
       <span class="compare-label compare-after">DEPOIS</span>
-      <img src="./globals/images/depois.webp" class="compare-img">
+      <img src="./globals/images/depois.webp" class="compare-img" fetchpriority="high" decoding="async">
       <div class="compare-overlay">
-        <img src="./globals/images/antes.webp" class="compare-img">
+        <img src="./globals/images/antes.webp" class="compare-img" loading="lazy" decoding="async">
       </div>
       <div class="compare-slider">
         <div class="compare-handle">↔</div>
@@ -483,7 +483,6 @@
         window.open(url, "_blank");
       });
     }
-  </script>
   </script>
   <script src="./js/script.js" type="module"></script>
 
