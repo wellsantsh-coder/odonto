@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lente dental</title>
+  <title>Lentes de Porcelana em Caraguatatuba | Dr. Anderson</title>
+  <meta name="description" content="Lentes de porcelana em Caraguatatuba com Dr. Anderson. Corrija dentes escurecidos, desalinhados ou com imperfeições e transforme seu sorriso com naturalidade.">
+  <meta property="og:title" content="Lentes de Porcelana em Caraguatatuba | Dr. Anderson">
+  <meta property="og:description" content="Transforme seu sorriso com lentes de porcelana. Atendimento estético e resultados naturais.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/globals/images/dr-anderson.webp">
+  <meta name="theme-color" content="#0f0f1a">
+  <link rel="preload" as="image" href="./globals/images/dr-anderson.webp">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -108,7 +115,7 @@
   </div>
 
   <!-- Problem -->
-  <section id="problema container" class="problem">
+  <section id="problema" class="problem">
     <div class="container problem-grid">
       <div class="problem-content show-right" data-anime="scroll" data-tab="content">
         <span class="snap gradient-text">
@@ -150,7 +157,7 @@
         </div>
       </div>
       <div class="problem-image show-top" data-anime="scroll" data-tab="content">
-        <img src=" ./globals/images/vergonha-sorriso.webp" alt="">
+        <img src="./globals/images/vergonha-sorriso.webp" alt="Paciente com vergonha de sorrir antes do tratamento" loading="lazy">
       </div>
     </div>
   </section>
@@ -159,7 +166,7 @@
   <section id="solucao" class="solution">
     <div class="solution-grid container">
       <div class="solution-image show-top" data-anime="scroll" data-tab="content">
-        <img src="./globals/images/sorriso-resultado.webp" alt="">
+        <img src="./globals/images/sorriso-resultado.webp" alt="Resultado de lentes de porcelana no sorriso" loading="lazy">
       </div>
       <div class="solution-content show-top" data-anime="scroll" data-tab="content">
         <div class="solution-header">
@@ -246,7 +253,7 @@
       </div>
 
       <div class="about-image show-top" data-anime="scroll" data-tab="content">
-        <img src="./globals/images/dr-anderson.webp" alt="Dr. Anderson especialista em lentes de porcelana">
+        <img src="./globals/images/dr-anderson.webp" alt="Dr. Anderson especialista em lentes de porcelana em Caraguatatuba" loading="lazy">
 
         <div class="about-card">
           <ul>
@@ -303,7 +310,7 @@
           <!-- Card -->
           <article class="testimonial-card">
             <header class="testimonial-user">
-              <img src="./globals/images/testimonial-1.webp" alt="Paciente Mariana Silva" class="testimonial-avatar">
+              <img src="./globals/images/testimonial-1.webp" alt="Paciente Mariana Silva" class="testimonial-avatar" loading="lazy">
               <div class="testimonial-info">
                 <strong class="testimonial-name">
                   Mariana Silva
@@ -325,7 +332,7 @@
           <!-- Card -->
           <article class="testimonial-card">
             <header class="testimonial-user">
-              <img src="./globals/images/testimonial-2.webp" alt="Paciente Wellington Santos" class="testimonial-avatar">
+              <img src="./globals/images/testimonial-2.webp" alt="Paciente Wellington Santos" class="testimonial-avatar" loading="lazy">
               <div class="testimonial-info">
                 <strong class="testimonial-name">
                   Wellington Santos
@@ -347,7 +354,7 @@
           <!-- Card -->
           <article class="testimonial-card">
             <header class="testimonial-user">
-              <img src="./globals/images/testimonial-3.webp" alt="Paciente Carlos Henrique" class="testimonial-avatar">
+              <img src="./globals/images/testimonial-3.webp" alt="Paciente Carlos Henrique" class="testimonial-avatar" loading="lazy">
               <div class="testimonial-info">
                 <strong class="testimonial-name">
                   Carlos Henrique
@@ -374,7 +381,7 @@
 
       <!-- Image -->
       <div class="contact-image show-right" data-anime="scroll" data-tab="content">
-        <img src="./globals/images/dr-anderson-contato.webp" alt="Dr Anderson atendendo paciente">
+        <img src="./globals/images/dr-anderson-contato.webp" alt="Dentista realizando atendimento odontológico" loading="lazy">
       </div>
 
       <!-- Form -->
@@ -477,7 +484,23 @@
       });
     }
   </script>
+  </script>
   <script src="./js/script.js" type="module"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Dr. Anderson",
+    "telephone": "+5512982038956",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Caraguatatuba",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
 </body>
 
 </html>
